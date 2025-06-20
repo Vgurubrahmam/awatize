@@ -4,9 +4,12 @@ import "./globals.css"
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
-  generator: "v0.dev",
+  title: "SSP-AD-ACTION-SIMULATOR",
+  icons: {
+    icon: "/favicon.svg",        // normal favicon (32 × 32 or 48 × 48)
+    shortcut: "/favicon.svg",    // for “Add to bookmarks”
+    apple: "/favicon.svg",       // iOS / iPad homescreen
+  },
 }
 
 export default function RootLayout({
